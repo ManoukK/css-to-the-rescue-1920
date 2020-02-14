@@ -1,79 +1,685 @@
+/* idee: transitie 2x zo groot met hover */
+
 :root {
-  --dark: #000;
-  --course: #F4E408;
-  --light: #fff;
+  --white: white;
+  --black: black;
+  --pink: #f886a8;
+  --orange: #fe8d6f;
+  --yellow: #fdc453;
+  --green: #dfdd6c;
+  --blue: #a0dde0;
+  --thinStroke: 0.3em;
+  --thicStroke: 1em;
 }
+
+
+
+/* w3schools.com/howto/howto_css_custom_scrollbar.asp */
+/* https://css-tricks.com/the-current-state-of-styling-scrollbars/ */
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);;
+  border-radius: 50px;
+  background-image: url("/img/borrelplank.jpg");
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  /* https://css-tricks.com/css3-gradients/ */
+  /* background-image: radial-gradient(
+    black 70%,
+    white 70%
+  ) */
+  background-image: url("/img/bietensalade.jpg");
+  background-size: cover;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: radial-gradient(
+    #f886a8 20%,
+    #fe8d6f 30%,
+    #fdc453 40%,
+    #dfdd6c 50%,
+    #a0dde0 60%,
+    white 70%
+  )
+}
+
 body {
-  background-color: var(--dark);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-  color: var(--light);
-  font-family: monospace;
+  margin: 3em;
+  border-style: solid;
+  border-width: var(--thinStroke);
+  font-family: "Arial Black", Gadget, sans-serif;
+  /* https://stackoverflow.com/questions/1071356/is-it-possible-to-hide-the-cursor-in-a-webpage-using-css-or-javascript */
+  /* cursor: none; */
+}
+
+body > h2 {
+  position: absolute;
+  font-size: 3em;
+  margin-top: -0.8em;
+  margin-left: 2vw;
+  color: var(--black);
+  font-weight: 100;
+  z-index: 10;
+}
+
+/* menu titel */
+body > h2 span:nth-of-type(1):hover {
+  color: var(--yellow);
+} 
+
+body > h2 span:nth-of-type(1):not(:hover) {
+  animation-duration: 10s;
+  animation-name: yellowToBlack
+}
+
+body > h2 span:nth-of-type(2):hover {
+  color: var(--pink);
+} 
+
+body > h2 span:nth-of-type(2):not(:hover) {
+  animation-duration: 10s;
+  animation-name: pinkToBlack
+}
+
+body > h2 span:nth-of-type(3):hover {
+  color: var(--green);
+} 
+
+body > h2 span:nth-of-type(3):not(:hover) {
+  animation-duration: 10s;
+  animation-name: greenToBlack
+}
+
+body > h2 span:nth-of-type(4n):hover {
+  color: var(--orange);
+} 
+
+body > h2 span:nth-of-type(4n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: orangeToBlack
+}
+
+/* header svg stijling */
+body > header {
+  margin: 2em 0em 5em 0em;
+  position: relative;
+  width: 100%;
+  height: 15em;
+}
+
+body > header > h1 {
+  position: absolute;
+  color: var(--black);
+  margin: 3.5em auto 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
   font-size: 1.5em;
-  line-height: 1.5;
-  margin: 0;
 }
-main {
-  max-width: 800px;
-  margin: 10vh auto;
+
+body > header > p {
+  position: absolute;
+  margin: 9em auto 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.8em;
 }
-header {
-  background: var(--course);
-  color: var(--dark);
-  height: 30vh;
+
+body > header > div {
+  position: absolute;
+  margin: 0 auto 0 auto;
+  left: 0;
+  right: 0;
+}
+
+body > header svg {
+  margin: 0 auto 0 auto;
+  display: block;
+  width: 22em;
+  height: 15em;
+}
+
+body > header rect {
+  width: 270px;
+  height: 120px;
+  stroke: var(--black);
+  stroke-width: var(--thinStroke);
+  fill:var(--white);
+}
+
+body > header rect:nth-of-type(1n) {
+  y: 1em;
+  x: 0.5em;
+}
+
+body > header rect:nth-of-type(1n):hover {
+  fill: var(--yellow);
+  transition: fill 2s;
+}
+
+body > header rect:nth-of-type(1n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: yellowToWhite;
+}
+
+body > header rect:nth-of-type(2n) {
+  y: 5em;
+  x: 4.5em;
+}
+
+body > header rect:nth-of-type(2n):hover {
+  fill: var(--pink);
+}
+
+body > header rect:nth-of-type(2n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: pinkToWhite;
+}
+
+body > header rect:nth-of-type(3n) {
+  y: 3em;
+  x: 2.5em;
+}
+
+body > header rect:nth-of-type(3n):hover {
+  fill: var(--blue);
+}
+
+body > header rect:nth-of-type(3n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: blueToWhite;
+}
+
+/* bubbel animatie */
+/* bron: https://www.creativebloq.com/inspiration/css-animation-examples */
+
+body > svg {
+  background-color: var(--blue);
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  margin: -3.3em 0em 0em -3.5em;
+}
+
+body > svg > g circle {
+  fill: transparent;
+  stroke: var(--white);
+  stroke-width: var(--thinStroke);
+}
+
+/* body > svg > g:nth-of-type(1) circle {
+  r: 5;
+}
+
+body > svg > g:nth-of-type(2) circle {
+  r: 15;
+} */
+
+body > svg > g:nth-of-type(1) circle:nth-of-type(1) {
+  cx: 50;
+  cy: 25;
+}
+
+body > svg > g:nth-of-type(1) circle:nth-of-type(2) {
+  cx: 10;
+  cy: 25;
+}
+
+body > svg > g:nth-of-type(1) circle:nth-of-type(3) {
+  cx: 1;
+  cy: 25;
+  r: 3;
+}
+
+body > svg > g:nth-of-type(1) circle:nth-of-type(4) {
+  cx: 20;
+  cy: 25;
+  r: 20;
+}
+
+/* 
+body > svg > g {
+  background-color: seagreen;
+  position: absolute;
+}
+
+body > svg > circle:nth-of-type(2) {
+  y: 3em;
+  x: 3em;
+}
+
+body > svg > g:nth-of-type(1) circle {
+  stroke: var(--white);
+  stroke-width: var(--thinStroke);
+  fill: none;
+  cx: 35px; 
+  cy: 35px;
+  r: 10px;
+} */
+
+/* body > svg > g:nth-of-type(1) g:nth-of-type(1) {
+  transform: translate(147, 980);
+  fill: red;
+} */
+
+/* body > svg > g:nth-of-type(1) > g:nth-of-type(2) {
+  transform: translate(10, 940);
+} */
+
+/* body > svg g:nth-of-type(2) circle {
+  stroke: var(--white);
+  stroke-width: var(--thinStroke);
+  fill: none;
+  cx: 15px; 
+  cy: 15px;
+  r: 5px;
+} */
+
+body > svg > g:nth-of-type(1) g {
+  animation: up 3s infinite;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* navigatie stijling */
+nav input {
+  display: none;
+}
+
+nav {
+  /* display: flex; */
+  height: 20em;
+  position: relative;
+  margin: auto;
+  /* left: 0em;
+  right: 0em; */
+  width: 90%;
+}
+
+nav label {
+  background-color: var(--black);
+  padding: 0em 2em 0em 2em;
+  margin: 5em 0em 4em 1em;
+  transition: ease-in-out;
+  transition-duration: 2s;
+  transition-delay: 1.5s;
+}
+
+nav label:hover {
+  padding-top: 8em;
+}
+label > svg {
+  margin-bottom: 1.5em;
+}
+
+nav path:nth-of-type(1n):hover {
+  fill: var(--pink);
+}
+
+nav path:nth-of-type(1n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: pinkToBlack;
+}
+
+nav path:nth-of-type(3n):hover {
+  fill: var(--green);
+}
+
+nav path:nth-of-type(3n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: greenToBlack;
+}
+
+nav path:nth-of-type(5n):hover {
+  fill: var(--blue);
+}
+
+nav path:nth-of-type(5n):not(:hover) {
+  animation-duration: 10s;
+  animation-name: blueToBlack;
+}
+
+nav circle:hover {
+  fill: var(--orange);
+}
+
+nav circle:not(:hover) {
+  animation-duration: 10s;
+  animation-name: orangeToBlack;
+}
+
+nav polygon:hover {
+  fill: var(--yellow);
+}
+
+nav polygon:not(:hover) {
+  animation-duration: 10s;
+  animation-name: yellowToBlack;
+}
+
+nav rect:hover {
+  fill: var(--yellow);
+}
+
+nav rect:not(:hover) {
+  animation-duration: 10s;
+  animation-name: yellowToBlack;
+}
+
+/* menu kaartjes */
+section > div{
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h1 {
-  font-size: 5em;
-}
-h2 {
-  font-size: 2em;
-  margin-top: 1.5em;
-}
-ul {
-  display: flex;
-  /flex-wrap: wrap;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-  margin: 0 -1rem;
-}
-ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem;
-}
-ul img {
-  border: 2px solid var(--light);
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-img {
-  max-width: 100%;
+  display: inline-block;
 }
 
-section#lecturers img {
-  border-radius: 100%;
-  margin-right: 1em;
+main > header > h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 2em 0em 1em 0em;
 }
 
-.button {
-  background: var(--light);
-  color: var(--dark);
-  padding: 1em;
+section div {
+  /* background-color: royalblue; */
+  height: 20em;
+  width: 26%;
+  margin: 1em;
+  padding: 0em 1em 1em 1em;
+  min-width: 15em;
 }
 
-.examples img {
-  max-width: 25vh;
+section article {
+  border-style: solid;
+  border-width: var(--thinStroke);
+  min-width: 15em;
+  height: 20em;
+  width: 26%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0em 1em 1em 1em;
 }
 
-a,
-a:visited {
-  color: var(--course);
+section article > * {
+  font-size: 1.5em;
+  font-weight: 900;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
-footer {
-  font-style: italic;
+section div:hover > article{
+  background-size: cover;
+  background-position: center;
+}
+
+section div:hover > article > * {
+  color: var(--white);
+}
+
+/* section 1 backgrounds */
+section:nth-of-type(1) div:nth-of-type(1) > article > *{
+  background-image: url("/img/bietensalade.jpg");
+}
+
+section:nth-of-type(1) div:nth-of-type(1):hover > article {
+  background-image: url("/img/bietensalade.jpg");
+}
+
+section:nth-of-type(1) div:nth-of-type(2) > article > *{
+  background-image: url("/img/borrelplank.jpg");
+}
+
+section:nth-of-type(1) div:nth-of-type(2):hover > article{
+  background-image: url("/img/borrelplank.jpg"); 
+}
+
+section:nth-of-type(1) div:nth-of-type(3) > article > *{
+  background-image: url("/img/groentesoep.png");
+}
+
+section:nth-of-type(1) div:nth-of-type(3):hover > article{
+  background-image: url("/img/groentesoep.png");
+}
+
+section:nth-of-type(1) div:nth-of-type(4) > article > *{
+  background-image: url("/img/lentesalade.jpeg");
+}
+
+section:nth-of-type(1) div:nth-of-type(4):hover > article{
+  background-image: url("/img/lentesalade.jpeg");
+}
+
+section:nth-of-type(1) div:nth-of-type(5) > article > *{
+  background-image: url("/img/mangosalade.jpg");
+}
+
+section:nth-of-type(1) div:nth-of-type(5):hover > article{
+  background-image: url("/img/mangosalade.jpg");
+}
+
+/* section 2 backgrounds */
+section:nth-of-type(2) div:nth-of-type(1) > article > *{
+  background-image: url("/img/pizzasalami.jpeg");
+}
+
+section:nth-of-type(2) div:nth-of-type(1):hover > article{
+  background-image: url("/img/pizzasalami.jpeg");
+}
+
+section:nth-of-type(2) div:nth-of-type(2) > article > *{
+  background-image: url("/img/pizzamozz.jpg");
+}
+
+section:nth-of-type(2) div:nth-of-type(2):hover > article{
+  background-image: url("/img/pizzamozz.jpg");
+}
+
+section:nth-of-type(2) div:nth-of-type(3) > article > *{
+  background-image: url("/img/pizzabbqchicken.jpg");
+}
+
+section:nth-of-type(2) div:nth-of-type(3):hover > article{
+  background-image: url("/img/pizzabbqchicken.jpg");
+}
+
+section:nth-of-type(2) div:nth-of-type(4) > article > *{
+  background-image: url("/img/pizzahawaii.jpeg");
+}
+
+section:nth-of-type(2) div:nth-of-type(4):hover > article{
+  background-image: url("/img/pizzahawaii.jpeg");
+}
+
+section:nth-of-type(2) div:nth-of-type(5) > article > *{
+  background-image: url("/img/pizzavierkazen.jpg");
+}
+
+section:nth-of-type(2) div:nth-of-type(5):hover > article{
+  background-image: url("/img/pizzavierkazen.jpg");
+}
+
+/* flip animatie */
+/* bronnen: https://css-tricks.com/almanac/properties/b/backface-visibility/ 
+en https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+/* section:nth-of-type(1) article:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-backface-visibility: visible;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+} 
+
+section:nth-of-type(1) article:hover > * {
+  /* -webkit-transform: rotateY(180deg);
+  -webkit-backface-visibility: visible;
+  -webkit-transform-style: preserve-3d;
+  z-index: 10; */
+  /* Hoe je de tekst weer flipt https://stackoverflow.com/questions/3433641/flipping-inverting-mirroring-text-using-css-only */
+  /* transform: scaleX(-1); */
+/* }  */
+
+section:nth-of-type(1) div:hover > article {
+  -webkit-transform: rotateY(180deg);
+  -webkit-backface-visibility: visible;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+} 
+
+section:nth-of-type(1) div:hover article > * {
+  /* -webkit-transform: rotateY(180deg);
+  -webkit-backface-visibility: visible;
+  -webkit-transform-style: preserve-3d;
+  z-index: 10; */
+  /* Hoe je de tekst weer flipt https://stackoverflow.com/questions/3433641/flipping-inverting-mirroring-text-using-css-only */
+  transform: scaleX(-1);
+}
+
+/* filter spelen */
+section:nth-of-type(2) div:hover > article > * {
+  color: var(--black);
+}
+
+section:nth-of-type(2) div:nth-of-type(1):hover > article > * {
+  backdrop-filter: hue-rotate(290deg);
+}
+
+section:nth-of-type(2) div:nth-of-type(2):hover > article > * {
+  backdrop-filter: saturate(20);
+}
+
+section:nth-of-type(2) div:nth-of-type(3):hover > article > * {
+  backdrop-filter: invert(1);
+}
+
+section:nth-of-type(2) div:nth-of-type(4):hover > article > * {
+  backdrop-filter: blur(10px);
+}
+
+section:nth-of-type(2) div:nth-of-type(5):hover > article > * {
+  backdrop-filter: grayscale(1);
+}
+
+/* foto slide als achtergrond */
+section:nth-of-type(3):hover > article {
+  -webkit-transition: 1s;
+}
+
+/* Muis veranderingen */
+/* http://getemoji.com/ */
+/* section:nth-of-type(1n):hover{
+  cursor: url("/img/cursorSoup.png"), auto;
+} */
+
+section:nth-of-type(2n):hover{
+  cursor: url("/img/cursorPizza.png"), auto;
+}
+
+section:nth-of-type(3n):hover{
+  cursor: url("/img/cursorPasta.png"), auto;
+}
+
+section:nth-of-type(4n):hover{
+  cursor: url("/img/cursorIce.png"), auto;
+}
+
+/* animaties op de titels van het menu */
+
+header:last-of-type h2 {
+  transition-duration: 1s;
+}
+
+header:last-of-type:hover h2 {
+  text-align: center;
+  letter-spacing: -0.63em;
+}
+
+/* keyframes */
+/* https://stackoverflow.com/questions/17847049/css3-custom-animation-triggering-after-hover */
+/* color to white keyframes */
+@keyframes greenToWhite {
+  from {fill: var(--green);
+        color: var(--green);
+  }
+  to {fill: white;}
+}
+
+@keyframes pinkToWhite {
+  from {fill: var(--pink);
+        color: var(--pink);
+  }
+  to {fill: var(--white);}
+}
+
+@keyframes blueToWhite {
+  from {fill: var(--blue);
+        color: var(--blue);
+  }
+  to {fill: var(--white);}
+}
+
+@keyframes orangeToWhite {
+  from {fill: var(--orange);
+        color: var(--orange);
+  }
+  to {fill: var(--white);}
+}
+
+@keyframes yellowToWhite {
+  from {fill: var(--yellow);
+        color: var(--yellow);
+  }
+  to {fill: var(--white);}
+}
+
+/* color to black keyframes */
+@keyframes greenToBlack {
+  from {fill: var(--green);
+        color: var(--green);
+  }
+  to {fill: var(--black);}
+}
+
+@keyframes pinkToBlack {
+  from {fill: var(--pink);
+        color: var(--pink);
+  }
+  to {fill: var(--black);}
+}
+
+@keyframes blueToBlack {
+  from {fill: var(--blue);
+        color: var(--blue);
+  }
+  to {fill: var(--black);}
+}
+
+@keyframes orangeToBlack {
+  from {fill: var(--orange);
+        color: var(--orange);
+  }
+  to {fill: var(--black);}
+}
+
+@keyframes yellowToBlack {
+  from {fill: var(--yellow);
+        color: var(--yellow);
+  }
+  to {fill: var(--black);}
 }
