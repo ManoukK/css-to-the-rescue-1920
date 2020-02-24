@@ -26,7 +26,7 @@ Als de gebruiker darkmode aanzet wil ik juist dat het omgedraaid is. De witte en
 Ik heb uiteindelijk een beetje van dit concept afgeweken want de muis en scrollbar passen niet bij dit idee. Maar voor deze opdracht maakt dat niet uit. 
 
 #### De hoofdpagina (tot nu toe)
-> screenshot 
+![Schermafbeelding 2020-02-24 om 17 38 06](https://user-images.githubusercontent.com/45541885/75171786-7ae18900-572c-11ea-8c2d-b9cdf49588f4.png)
 
 ### Installatie
 Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven in. Je kan het project downloaden of forken. Je hebt verder geen installatie nodig want alles is gemaakt met html en css zonder installaties. 
