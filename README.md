@@ -32,7 +32,14 @@ Ik heb uiteindelijk een beetje van dit concept afgeweken want de muis en scrollb
 Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven in. Je kan het project downloaden of forken. Je hebt verder geen installatie nodig want alles is gemaakt met html en css zonder installaties. 
 
 ### Features 
-
+- [ ] Onzichtbare svg's op de achtergrond (worden zichtbaar als je eroverheen hovert)
+- [ ] Bubble animatie. Gewoon omdat het cool is
+- [ ] Loading state als je voor het eerst de pagina op komt
+- [ ] Darkmode 
+- [x] Cursor animatie
+- [x] Pizza/pasta scrollbar
+- [ ] Alles moet animateren als je met je muis erover gaat
+ 
 ### Bronnenlijst
 
 ### Credits
