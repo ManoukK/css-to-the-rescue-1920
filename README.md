@@ -1,44 +1,42 @@
-# CSS to the Rescue @cmda-minor-web 19-20
+# titel 
 
-_This course is in English_
+### Inhoudsopgave 
+* [De opdracht](#De-opdracht)
+* [Mijn concept](#Mijn-concept)
+   * [De hoofdpagina](#De-hoofdpagina-(tot-nu-toe))
+* [Installatie](#Installatie)
+* [Features](#Features)
+* [Bronnenlijst](#Bronnenlijst)
+* [Credits](#Credits)
 
-In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using CSS and SVG. No Javascrpt allowed.
+### De opdracht 
+Voor dit vak is het de bedoeling dat we zoveel mogelijk css selectoren en properties leren. Zelfs als je denkt dat je het nooit meer hoeft te gebruiken. Dit maakt deze opdracht erg creatief. Er zijn echter wel een aantal punten waar je je aan "moet" houden. Ik heb gekozen voor: 
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+- Werken met SVG
+- Responsive zonder media queries
+- Darkmode functie
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+Het is ook de bedoeling dat we geen gebruik maken van JavaScript.
 
-## Programm
+### Mijn concept 
+Mijn idee was om een website te maken die in het eerste opzicht vrij saai is. Weinig kleur en vorm. Zodra de gebruiker over elementen gaat hoveren of erop gaat klikken zal de pagina kleur krijgen of de elementen die geactiveerd worden. Ik hoop hiermee te bereiken dat de website eigenlijk helemaal niet saai is en dat je juist van alles wilt uitproberen. Misschien met 2 of 3 keer. 
 
-### Week 1 - 👁 C what you did there
+Als de gebruiker darkmode aanzet wil ik juist dat het omgedraaid is. De witte en zwarte kleuren krijgen felle kleuren en zodra je over elementen hoverd of ze activeert worden deze saai.
 
-[See all the details of week 1 here](week1/).
+Ik heb uiteindelijk een beetje van dit concept afgeweken want de muis en scrollbar passen niet bij dit idee. Maar voor deze opdracht maakt dat niet uit. 
 
-Goals of this week: 
+#### De hoofdpagina (tot nu toe)
+> screenshot 
 
-- Be inspired
-- Discuss hot CSS topics.
-- Get going!
+### Installatie
+Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven in. Je kan het project downloaden of forken. Je hebt verder geen installatie nodig want alles is gemaakt met html en css zonder installaties. 
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
+### Features 
 
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
+### Bronnenlijst
 
-### Week 2 - Create Stuff, 🙃 Smile 
+### Credits
 
-This week’s goals: Moar inspiration, create stuff, break stuff, and learn from each other.
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
-
-### Week 3 - 🎪 Show time
-
-Goals: Blow us away.
 
 <!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
 
