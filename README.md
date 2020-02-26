@@ -1,44 +1,70 @@
-# CSS to the Rescue @cmda-minor-web 19-20
+# Experimenteren met CSS
 
-_This course is in English_
+### Inhoudsopgave 
+* [De opdracht](#De-opdracht)
+* [Mijn concept](#Mijn-concept)
+   * [De hoofdpagina](#De-hoofdpagina-(tot-nu-toe))
+* [Installatie](#Installatie)
+* [Features](#Features)
+* [Bronnenlijst](#Bronnenlijst)
+* [Credits](#Credits)
+* [Documentatie](#Documentatie)
 
-In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using CSS and SVG. No Javascrpt allowed.
+### De opdracht 
+Voor dit vak is het de bedoeling dat we zoveel mogelijk css selectoren en properties leren. Zelfs als je denkt dat je het nooit meer hoeft te gebruiken. Dit maakt deze opdracht erg creatief. Er zijn echter wel een aantal punten waar je je aan "moet" houden. Ik heb gekozen voor: 
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+- Werken met SVG
+- Responsive zonder media queries
+- Darkmode functie
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+Het is ook de bedoeling dat we geen gebruik maken van JavaScript.
 
-## Programm
+### Mijn concept 
+Mijn idee was om een website te maken die in het eerste opzicht vrij saai is. Weinig kleur en vorm. Zodra de gebruiker over elementen gaat hoveren of erop gaat klikken zal de pagina kleur krijgen of de elementen die geactiveerd worden. Ik hoop hiermee te bereiken dat de website eigenlijk helemaal niet saai is en dat je juist van alles wilt uitproberen. Misschien met 2 of 3 keer. 
 
-### Week 1 - 👁 C what you did there
+Als de gebruiker darkmode aanzet wil ik juist dat het omgedraaid is. De witte en zwarte kleuren krijgen felle kleuren en zodra je over elementen hoverd of ze activeert worden deze saai.
 
-[See all the details of week 1 here](week1/).
+Ik heb uiteindelijk een beetje van dit concept afgeweken want de muis en scrollbar passen niet bij dit idee. Maar voor deze opdracht maakt dat niet uit. 
 
-Goals of this week: 
+#### De hoofdpagina (tot nu toe)
+![Schermafbeelding 2020-02-24 om 17 38 06](https://user-images.githubusercontent.com/45541885/75171786-7ae18900-572c-11ea-8c2d-b9cdf49588f4.png)
 
-- Be inspired
-- Discuss hot CSS topics.
-- Get going!
+### Installatie
+Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven in. Je kan het project downloaden of forken. Je hebt verder geen installatie nodig want alles is gemaakt met html en css zonder installaties. 
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
+### Features 
+- [ ] Onzichtbare svg's op de achtergrond (worden zichtbaar als je eroverheen hovert)
+- [ ] Bubble animatie. Gewoon omdat het cool is
+- [ ] Loading state als je voor het eerst de pagina op komt
+- [ ] Darkmode 
+- [x] Cursor animatie
+- [x] Pizza/pasta scrollbar
+- [ ] Alles moet animateren als je met je muis erover gaat
+ 
+### Bronnenlijst
+- Animatie op een cursor: https://codepen.io/Jan-Timon/pen/amkLWL
+- Flip card effect: https://css-tricks.com/almanac/properties/b/backface-visibility/ en https://www.w3schools.com/howto/howto_css_flip_card.asp
+- Tekst spiegelen: https://stackoverflow.com/questions/3433641/flipping-inverting-mirroring-text-using-css-only
+- Backdrop filters: https://css-tricks.com/almanac/properties/b/backdrop-filter/
+- Achtergrond svg: https://css-tricks.com/snippets/svg/svg-patterns/
+- nth-of-type: https://css-tricks.com/almanac/selectors/n/nth-of-type/
+- svg iconen: https://thenounproject.com/photo3idea/collection/food-dessert-solid/?i=1869810
+- scrollbar styling: https://css-tricks.com/the-current-state-of-styling-scrollbars/
+- Bubbel svg animatie: https://www.creativebloq.com/inspiration/css-animation-examples
+- Emojies cursor: http://getemoji.com/
+- Eigen cursor ontwerpen: http://www.rw-designer.com/online-cursor-editor
+- Ik heb heel veel andere dingen van css geleerd van https://css-tricks.com/ Bij de documentatie heb ik beschreven wat ik allemaal heb geleerd en bijna alles komt van deze site. 
 
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
+### Credits
+- https://css-tricks.com/ Ik vond daar veel inspiratie en informatie om in mijn project toe te passen
+- http://getemoji.com/ voor png emojies van goede kwaliteit 
+- http://www.rw-designer.com/online-cursor-editor voor het ontwerpen van een eigen cursor
+- https://codepen.io/Jan-Timon/pen/amkLWL voor de animatie op de cursor
 
-### Week 2 - Create Stuff, 🙃 Smile 
+### Documentatie 
+- Mijn experimenten: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Mijn-experimenten
+- Wat heb ik geleerd: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Wat-heb-ik-geleerd
 
-This week’s goals: Moar inspiration, create stuff, break stuff, and learn from each other.
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
-
-### Week 3 - 🎪 Show time
-
-Goals: Blow us away.
 
 <!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
 
