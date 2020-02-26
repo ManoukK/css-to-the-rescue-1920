@@ -8,6 +8,7 @@
 * [Features](#Features)
 * [Bronnenlijst](#Bronnenlijst)
 * [Credits](#Credits)
+* [Documentatie](#Documentatie)
 
 ### De opdracht 
 Voor dit vak is het de bedoeling dat we zoveel mogelijk css selectoren en properties leren. Zelfs als je denkt dat je het nooit meer hoeft te gebruiken. Dit maakt deze opdracht erg creatief. Er zijn echter wel een aantal punten waar je je aan "moet" houden. Ik heb gekozen voor: 
@@ -43,6 +44,10 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 ### Bronnenlijst
 
 ### Credits
+
+### Documentatie 
+- Mijn experimenten: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Mijn-experimenten
+- Wat heb ik geleerd: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Wat-heb-ik-geleerd
 
 
 <!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
