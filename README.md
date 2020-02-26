@@ -42,8 +42,22 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 - [ ] Alles moet animateren als je met je muis erover gaat
  
 ### Bronnenlijst
+- Animatie op een cursor: https://codepen.io/Jan-Timon/pen/amkLWL
+- Flip card effect: https://css-tricks.com/almanac/properties/b/backface-visibility/ en https://www.w3schools.com/howto/howto_css_flip_card.asp
+- Tekst spiegelen: https://stackoverflow.com/questions/3433641/flipping-inverting-mirroring-text-using-css-only
+- Backdrop filters: https://css-tricks.com/almanac/properties/b/backdrop-filter/
+- Achtergrond svg: https://css-tricks.com/snippets/svg/svg-patterns/
+- nth-of-type: https://css-tricks.com/almanac/selectors/n/nth-of-type/
+- svg iconen: https://thenounproject.com/photo3idea/collection/food-dessert-solid/?i=1869810
+- scrollbar styling: https://css-tricks.com/the-current-state-of-styling-scrollbars/
+- Bubbel svg animatie: https://www.creativebloq.com/inspiration/css-animation-examples
+- Emojies cursor: http://getemoji.com/
+- Eigen cursor ontwerpen: http://www.rw-designer.com/online-cursor-editor
+
 
 ### Credits
+- https://css-tricks.com/ Ik vond daar veel inspiratie en informatie om in mijn project toe te passen
+- 
 
 ### Documentatie 
 - Mijn experimenten: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Mijn-experimenten
