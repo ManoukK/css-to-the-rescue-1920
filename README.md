@@ -53,11 +53,13 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 - Bubbel svg animatie: https://www.creativebloq.com/inspiration/css-animation-examples
 - Emojies cursor: http://getemoji.com/
 - Eigen cursor ontwerpen: http://www.rw-designer.com/online-cursor-editor
-
+- Ik heb heel veel andere dingen van css geleerd van https://css-tricks.com/ Bij de documentatie heb ik beschreven wat ik allemaal heb geleerd en bijna alles komt van deze site. 
 
 ### Credits
 - https://css-tricks.com/ Ik vond daar veel inspiratie en informatie om in mijn project toe te passen
-- 
+- http://getemoji.com/ voor png emojies van goede kwaliteit 
+- http://www.rw-designer.com/online-cursor-editor voor het ontwerpen van een eigen cursor
+- https://codepen.io/Jan-Timon/pen/amkLWL voor de animatie op de cursor
 
 ### Documentatie 
 - Mijn experimenten: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Mijn-experimenten
