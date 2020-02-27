@@ -343,6 +343,7 @@ section div article > * {
   background-size: cover;
   background-position: center;
   color: transparent;
+  /* hier heb ik webkit nodig omdat background-clip: text; niet goed werkt op chrome*/
   -webkit-background-clip: text;
 }
 
