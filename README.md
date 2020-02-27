@@ -40,6 +40,7 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 - [x] Cursor animatie
 - [x] Pizza/pasta scrollbar
 - [ ] Alles moet animateren als je met je muis erover gaat
+- [ ] Alles netjes centreren
  
 ### Bronnenlijst
 - Animatie op een cursor: https://codepen.io/Jan-Timon/pen/amkLWL
