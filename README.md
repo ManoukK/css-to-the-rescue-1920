@@ -54,6 +54,7 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 - Emojies cursor: http://getemoji.com/
 - Eigen cursor ontwerpen: http://www.rw-designer.com/online-cursor-editor
 - Ik heb heel veel andere dingen van css geleerd van https://css-tricks.com/ Bij de documentatie heb ik beschreven wat ik allemaal heb geleerd en bijna alles komt van deze site. 
+- Darkmode begrijpen maar ik heb ook veel geleerd van Vasilis https://css-tricks.com/dark-modes-with-css/
 
 ### Credits
 - https://css-tricks.com/ Ik vond daar veel inspiratie en informatie om in mijn project toe te passen
@@ -64,27 +65,3 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 ### Documentatie 
 - Mijn experimenten: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Mijn-experimenten
 - Wat heb ik geleerd: https://github.com/ManoukK/css-to-the-rescue-1920/wiki/Wat-heb-ik-geleerd
-
-
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
