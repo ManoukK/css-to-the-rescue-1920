@@ -36,7 +36,7 @@ Wil je deze repository downloaden? Dan kan dat via de groene knop rechts boven i
 - [ ] Onzichtbare svg's op de achtergrond (worden zichtbaar als je eroverheen hovert)
 - [ ] Bubble animatie. Gewoon omdat het cool is
 - [ ] Loading state als je voor het eerst de pagina op komt
-- [ ] Darkmode 
+- [x] Darkmode 
 - [x] Cursor animatie
 - [x] Pizza/pasta scrollbar
 - [ ] Alles moet animateren als je met je muis erover gaat
