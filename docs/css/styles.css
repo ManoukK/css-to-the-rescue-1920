@@ -815,17 +815,19 @@ header:last-of-type:hover h2 {
 
 /* Dark mode */
 /* https://css-tricks.com/dark-modes-with-css/ */
-/* @media (prefers-color-scheme: dark) {
-  --white: black;
-  --black: white;
-  --pink: #f886a8;
-  --orange: #fe8d6f;
-  --yellow: #fdc453;
-  --green: #dfdd6c;
-  --blue: #a0dde0;
-  --thinStroke: 0.3em;
-  --thicStroke: 1em;
-} */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: white;
+    --black: black;
+    --pink: #f886a8;
+    --orange: #fe8d6f;
+    --yellow: #fdc453;
+    --green: #dfdd6c;
+    --blue: #a0dde0;
+    --thinStroke: 0.3em;
+    --thicStroke: 1em;
+  } 
+}
 
 /* truckje van Vasilis */
 /* darkmode (neon)*/
