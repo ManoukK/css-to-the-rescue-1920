@@ -358,164 +358,164 @@ section div:hover > article > * {
 
 /* section 1 backgrounds */
 section:nth-of-type(1) div:nth-of-type(1) > article > *{
-  background-image: url("/img/bietensalade.jpg");
+  background-image: url("../img/bietensalade.jpg");
 }
 
 section:nth-of-type(1) div:nth-of-type(1):hover > article {
-  background-image: url("/img/bietensalade.jpg");
+  background-image: url("../img/bietensalade.jpg");
 }
 
 section:nth-of-type(1) div:nth-of-type(2) > article > *{
-  background-image: url("/img/borrelplank.jpg");
+  background-image: url("../img/borrelplank.jpg");
 }
 
 section:nth-of-type(1) div:nth-of-type(2):hover > article{
-  background-image: url("/img/borrelplank.jpg"); 
+  background-image: url("../img/borrelplank.jpg"); 
 }
 
 section:nth-of-type(1) div:nth-of-type(3) > article > *{
-  background-image: url("/img/groentesoep.png");
+  background-image: url("../img/groentesoep.png");
 }
 
 section:nth-of-type(1) div:nth-of-type(3):hover > article{
-  background-image: url("/img/groentesoep.png");
+  background-image: url("../img/groentesoep.png");
 }
 
 section:nth-of-type(1) div:nth-of-type(4) > article > *{
-  background-image: url("/img/lentesalade.jpeg");
+  background-image: url("../img/lentesalade.jpeg");
 }
 
 section:nth-of-type(1) div:nth-of-type(4):hover > article{
-  background-image: url("/img/lentesalade.jpeg");
+  background-image: url("../img/lentesalade.jpeg");
 }
 
 section:nth-of-type(1) div:nth-of-type(5) > article > *{
-  background-image: url("/img/mangosalade.jpg");
+  background-image: url("../img/mangosalade.jpg");
 }
 
 section:nth-of-type(1) div:nth-of-type(5):hover > article{
-  background-image: url("/img/mangosalade.jpg");
+  background-image: url("../img/mangosalade.jpg");
 }
 
 /* section 2 backgrounds */
 section:nth-of-type(2) div:nth-of-type(1) > article > *{
-  background-image: url("/img/pizzasalami.jpeg");
+  background-image: url("../img/pizzasalami.jpeg");
 }
 
 section:nth-of-type(2) div:nth-of-type(1):hover > article{
-  background-image: url("/img/pizzasalami.jpeg");
+  background-image: url("../img/pizzasalami.jpeg");
 }
 
 section:nth-of-type(2) div:nth-of-type(2) > article > *{
-  background-image: url("/img/pizzamozz.jpg");
+  background-image: url("../img/pizzamozz.jpg");
 }
 
 section:nth-of-type(2) div:nth-of-type(2):hover > article{
-  background-image: url("/img/pizzamozz.jpg");
+  background-image: url("../img/pizzamozz.jpg");
 }
 
 section:nth-of-type(2) div:nth-of-type(3) > article > *{
-  background-image: url("/img/pizzabbqchicken.jpg");
+  background-image: url("../img/pizzabbqchicken.jpg");
 }
 
 section:nth-of-type(2) div:nth-of-type(3):hover > article{
-  background-image: url("/img/pizzabbqchicken.jpg");
+  background-image: url("../img/pizzabbqchicken.jpg");
 }
 
 section:nth-of-type(2) div:nth-of-type(4) > article > *{
-  background-image: url("/img/pizzahawaii.jpeg");
+  background-image: url("../img/pizzahawaii.jpeg");
 }
 
 section:nth-of-type(2) div:nth-of-type(4):hover > article{
-  background-image: url("/img/pizzahawaii.jpeg");
+  background-image: url("../img/pizzahawaii.jpeg");
 }
 
 section:nth-of-type(2) div:nth-of-type(5) > article > *{
-  background-image: url("/img/pizzavierkazen.jpg");
+  background-image: url("../img/pizzavierkazen.jpg");
 }
 
 section:nth-of-type(2) div:nth-of-type(5):hover > article{
-  background-image: url("/img/pizzavierkazen.jpg");
+  background-image: url("../img/pizzavierkazen.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(1) > article > *{
-  background-image: url("/img/pastabolognese.jpg");
+  background-image: url("../img/pastabolognese.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(1):hover > article{
-  background-image: url("/img/pastabolognese.jpg");
+  background-image: url("../img/pastabolognese.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(2) > article > *{
-  background-image: url("/img/pastazalm.jpg");
+  background-image: url("../img/pastazalm.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(2):hover > article{
-  background-image: url("/img/pastazalm.jpg");
+  background-image: url("../img/pastazalm.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(3) > article > *{
-  background-image: url("/img/pastavega.jpg");
+  background-image: url("../img/pastavega.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(3):hover > article{
-  background-image: url("/img/pastavega.jpg");
+  background-image: url("../img/pastavega.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(4) > article > *{
-  background-image: url("/img/pastaoosters.jpg");
+  background-image: url("../img/pastaoosters.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(4):hover > article{
-  background-image: url("/img/pastaoosters.jpg");
+  background-image: url("../img/pastaoosters.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(5) > article > *{
-  background-image: url("/img/pastaspinazie.jpg");
+  background-image: url("../img/pastaspinazie.jpg");
 }
 
 section:nth-of-type(3) div:nth-of-type(5):hover > article{
-  background-image: url("/img/pastaspinazie.jpg");
+  background-image: url("../img/pastaspinazie.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(1) > article > *{
-  background-image: url("/img/chococake.jpg");
+  background-image: url("../img/chococake.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(1):hover > article{
-  background-image: url("/img/chococake.jpg");
+  background-image: url("../img/chococake.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(2) > article > *{
-  background-image: url("/img/tropijs.jpg");
+  background-image: url("../img/tropijs.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(2):hover > article{
-  background-image: url("/img/tropijs.jpg");
+  background-image: url("../img/tropijs.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(3) > article > *{
-  background-image: url("/img/bakjeijs.jpg");
+  background-image: url("../img/bakjeijs.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(3):hover > article{
-  background-image: url("/img/bakjeijs.jpg");
+  background-image: url("../img/bakjeijs.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(4) > article > *{
-  background-image: url("/img/appeltaartijs.jpg");
+  background-image: url("../img/appeltaartijs.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(4):hover > article{
-  background-image: url("/img/appeltaartijs.jpg");
+  background-image: url("../img/appeltaartijs.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(5) > article > *{
-  background-image: url("/img/notentaart.jpg");
+  background-image: url("../img/notentaart.jpg");
 }
 
 section:nth-of-type(4) div:nth-of-type(5):hover > article{
-  background-image: url("/img/notentaart.jpg");
+  background-image: url("../img/notentaart.jpg");
 }
 
 /* flip animatie */
@@ -588,15 +588,15 @@ section:nth-of-type(1):hover{
 }
 
 section:nth-of-type(2):hover{
-  cursor: url("/img/cursorPizza.png"), auto;
+  cursor: url("../img/cursorPizza.png"), auto;
 }
 
 section:nth-of-type(3):hover{
-  cursor: url("/img/cursorPasta.png"), auto;
+  cursor: url("../img/cursorPasta.png"), auto;
 }
 
 section:nth-of-type(4):hover{
-  cursor: url("/img/cursorIce.png"), auto;
+  cursor: url("../img/cursorIce.png"), auto;
 }
 
 /* animaties op de titels van het menu */
@@ -778,12 +778,12 @@ header:last-of-type:hover h2 {
 /* cursor animatie */
 /* cursor gemaakt via: http://www.rw-designer.com/online-cursor-editor */
 @keyframes cursorAnimation {
-  0%{cursor: url("/img/cursor1.cur"), auto;}
-  20%{cursor: url("/img/cursor2.cur"), auto;}
-  40%{cursor: url("/img/cursor3.cur"), auto;}
-  60%{cursor: url("/img/cursor4.cur"), auto;}
-  80%{cursor: url("/img/cursor5.cur"), auto;}
-  100%{cursor: url("/img/cursor1.cur"), auto;}
+  0%{cursor: url("../img/cursor1.cur"), auto;}
+  20%{cursor: url("../img/cursor2.cur"), auto;}
+  40%{cursor: url("../img/cursor3.cur"), auto;}
+  60%{cursor: url("../img/cursor4.cur"), auto;}
+  80%{cursor: url("../img/cursor5.cur"), auto;}
+  100%{cursor: url("../img/cursor1.cur"), auto;}
 }
 
 @keyframes warpAnimation {
